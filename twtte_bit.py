@@ -15,10 +15,10 @@ import re
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
-consumerkey="5vJu0kvl9eyXSThbShXJSBOxi"
-consumersecret="uXS9SQjodrcW0CxQLDFiCFzSPo4K1K8xUG2K9gISVoO0qLExCM"
-accesstoken="1536910863529279489-15sWWsd04Kv2ArXchvehFmhwvWjG3J"
-accesssecret="OsysjYvcnHlTyB3KuHFWBXlWNljGWsZMQNxaXOfz3luLY"
+consumerkey=" "
+consumersecret=" "
+accesstoken=" "
+accesssecret=" "
 
 authenticated=tweepy.OAuthHandler(consumerkey,consumersecret)
 authenticated.set_access_token(accesstoken,accesssecret)
